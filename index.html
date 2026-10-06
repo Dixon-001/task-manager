@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <div id="student1"></div>
+    <div id="student2"></div>
+    <div id="student3"></div>
+    <script>
+        // student 1
+        let s1 = document.getElementById("student1")
+        
+        let student1 = {
+            name: "Femi samson", age: 24, course: "material science", class: "300L",subject:"Maths", total:""
+        }
+        let s1name= document.createElement("p")
+        s1name.textContent = student1.name
+        s1.appendChild(s1name)
+
+        let s1age= document.createElement("p")
+        s1age.textContent = student1.age
+        s1.appendChild(s1age)
+        // s1age.style.fontSize="30px"
+        // s1age.style.color="red"
+
+        let s1course= document.createElement("p")
+        s1course.textContent = student1.course
+        s1.appendChild(s1course)
+
+        let s1class= document.createElement("p")
+        s1class.textContent = student1.class
+        s1.appendChild(s1class)
+
+
+        let s1subject= document.createElement("p")
+        s1subject.textContent = student1.subject
+        s1.appendChild(s1subject)
+
+        let s1total= document.createElement("p")
+        s1total.textContent = student1.age +10
+        s1.appendChild(s1total) 
+        s1total.style.color="blue"
+        // studnt 2
+        let s2 = document.getElementById("student2")
+         let student2 = {
+            name: "Balogun Ibrahim ", age: 21, course: "Biolopgical science", class: "100L",subject:"English", total:""
+        }
+        let s2name= document.createElement("p")
+        s2name.textContent = student2.name
+        s2.appendChild(s2name)
+
+        let s2age= document.createElement("p")
+        s2age.textContent = student2.age
+        s2.appendChild(s2age)
+        // s1age.style.fontSize="30px"
+        // s1age.style.color="red"
+
+        let s2course= document.createElement("p")
+        s2course.textContent = student2.course
+        s2.appendChild(s2course)
+
+        let s2class= document.createElement("p")
+        s2class.textContent = student2.class
+        s2.appendChild(s2class)
+
+
+        let s2subject= document.createElement("p")
+        s2subject.textContent = student2.subject
+        s2.appendChild(s2subject)
+
+        let s2total= document.createElement("p")
+        s2total.textContent = student2.age +10
+        s2.appendChild(s2total) 
+        s2total.style.color="red"
+
+        // student 3
+        let s3= document.getElementById("student3")
+         let student3 = {
+            name: "Adamu Benjamin", age: 20, course: "polymer science", class: "300L",subject:"physics", total:""
+        }
+        let s3name= document.createElement("p")
+        s3name.textContent = student3.name
+        s3.appendChild(s3name)
+
+        let s3age=document.createElement("p")
+        s3age.textContent = student3.age
+        s3.appendChild(s3age)
+
+        let s3course = document.createElement("p")
+        s3course.textContent= student3.course
+        s3.appendChild(s3course)
+        let s3class = document.createElement("p")
+        s3class.textContent= student3.class
+        s3.appendChild(s3class)
+
+        let s3subject = document.createElement("p")
+        s3subject.textContent= student3.subject
+        s3.appendChild(s3subject)
+
+        let s3total = document.createElement("p")
+        s3total.textContent= student3.age +10
+        s3.appendChild(`total ${s3total}`)
+        s3total.style.color="green"
+    </script>
+</body>
+</html>

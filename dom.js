@@ -1,0 +1,1 @@
+console.log("DOM manipulation script loaded.and ready to go ");
